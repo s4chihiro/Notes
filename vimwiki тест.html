@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>vimwiki тест</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div id="Header1"><h1 id="Header1" class="header"><a href="#Header1">Header1</a></h1></div>
+<div id="Header1-Header2"><h2 id="Header2" class="header"><a href="#Header1-Header2">Header2</a></h2></div>
+<div id="Header1-Header2-Header3"><h3 id="Header3" class="header"><a href="#Header1-Header2-Header3">Header3</a></h3></div>
+
+<p>
+<span id="Header1-Header2-Header3-bold"></span><strong id="bold">bold</strong> -- bold text
+<em>italic</em> -- italic text
+</p>
+
+<div id="Header1-List1"><h2 id="List1" class="header"><a href="#Header1-List1">List1</a></h2></div>
+<ul>
+<li>
+list item 1
+
+<li>
+list item 2
+
+<li>
+list item 3
+
+</ul>
+
+<div id="Header1-List2"><h2 id="List2" class="header"><a href="#Header1-List2">List2</a></h2></div>
+<ul>
+<li>
+item 1
+
+<li>
+utem 2
+
+<li>
+item 3
+
+</ul>
+
+<div id="Header1-List3"><h2 id="List3" class="header"><a href="#Header1-List3">List3</a></h2></div>
+<ol>
+<li>
+item 1
+
+<li>
+item 2
+
+</ol>
+
+<div id="Header1-Список ссылок"><h2 id="Список ссылок" class="header"><a href="#Header1-Список ссылок">Список ссылок</a></h2></div>
+<ul>
+<li>
+<a href="первая.html">первая</a> -- куда-то ведет
+
+<li>
+<a href="вторая ссылка.html">вторая ссылка</a> -- тоже куда-то ведет
+
+<li>
+<a href="вторая ссылка.html">еще и с описанием</a> -- точнее третья
+
+</ul>
+
+<div id="Header1-Пример кода"><h2 id="Пример кода" class="header"><a href="#Header1-Пример кода">Пример кода</a></h2></div>
+
+<p>
+Сейчас будет код
+</p>
+
+<pre go>
+
+package main
+
+import {
+    "log"
+    "net/http"
+}
+
+func main() {
+    //комментарий
+    http.HandleFunc("/sign-in", Signin)
+    http.HandleFunc("/welcome", Welcome)
+}
+
+</pre>
+
+</body>
+</html>
